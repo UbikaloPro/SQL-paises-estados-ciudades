@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS `ciudades` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=523 ;
 
 INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`, `longitud`) VALUES
+-- total 571 ciudades o locaciones actualizadas con coordenadas
 -- Amazonas (5)
 ('', 1, 208, 'Maroa', 2.5794244,-67.5488133),
 ('', 1, 208, 'Puerto Ayacucho', 5.6469984,-67.6248376),
@@ -527,7 +528,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 22, 208, 'Tostós', 9.1913403,-70.3382948),
 ('', 22, 208, 'Trujillo', 9.3708902,-70.474195),
 ('', 22, 208, 'Valera', 9.3212085,-70.6848799),
--- La Guaira - Vargas (812)
+-- La Guaira - Vargas (12)
 ('', 23, 208, 'Anare', 10.625026,-66.622635),
 ('', 23, 208, 'Caraballeda', 10.6095305,-66.9136365),
 ('', 23, 208, 'Carayaca', 10.5327813,-67.1332572),
