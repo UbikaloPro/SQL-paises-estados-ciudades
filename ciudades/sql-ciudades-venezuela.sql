@@ -10,11 +10,13 @@ CREATE TABLE IF NOT EXISTS `ciudades` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=523 ;
 
 INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`, `longitud`) VALUES
+-- Amazonas (5)
 ('', 1, 208, 'Maroa', 2.5794244,-67.5488133),
 ('', 1, 208, 'Puerto Ayacucho', 5.6469984,-67.6248376),
 ('', 1, 208, 'San Carlos de Rio Negro', 1.9248479,-67.0720709),
 ('', 1, 208, 'San Fernando de Atabapo', 4.0370589,-67.7110088),
 ('', 1, 208, 'San Juan de Manapiare', 5.3245698 ,-66.057294),
+-- Anzoategui (28)
 ('', 2, 208, 'Anaco', 9.4366952,-64.49627),
 ('', 2, 208, 'Aragua de Barcelona', 9.455348,-64.8366309),
 ('', 2, 208, 'Barcelona', 10.1115662,-64.7336756),
@@ -43,6 +45,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 2, 208, 'Soledad', 8.1710935,-63.5844686),
 ('', 2, 208, 'Urica', 9.7033602,-64.0114785),
 ('', 2, 208, 'Valle de Guanape', 9.9115726,-65.694337),
+-- Apure (11)
 ('', 3, 208, 'Achaguas', 7.6820376,-68.3933364),
 ('', 3, 208, 'Biruaca', 7.8444421,-67.5265646),
 ('', 3, 208, 'Bruzual', 8.0458444,-69.3410147),
@@ -54,6 +57,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 3, 208, 'Puerto Páez', 6.2176517,-67.4688223),
 ('', 3, 208, 'San Fernando de Apure', 7.8726693,-67.4819329),
 ('', 3, 208, 'San Juan de Payara', 7.6453404,-67.6126314),
+-- Aragua (23)
 ('', 4, 208, 'Barbacoas', 9.4491965,-67.0003306),
 ('', 4, 208, 'Cagua', 10.176018,-67.495838),
 ('', 4, 208, 'Camatagua', 9.790031,-66.923969),
@@ -77,6 +81,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 4, 208, 'Turmero', 10.2434597,-67.5614151),
 ('', 4, 208, 'Villa de Cura', 10.0337585,-67.5350607),
 ('', 4, 208, 'Zuata', 10.1663586,-67.3957586),
+-- Barinas (19)
 ('', 5, 208, 'Arismendi', 8.4785057,-68.3793355),
 ('', 5, 208, 'Barinas', 8.6221706,-70.3055898),
 ('', 5, 208, 'Barinitas', 8.7609653,-70.4282644),
@@ -97,10 +102,11 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 5, 208, 'Socopó', 8.2249054,-70.8379032),
 ('', 5, 208, 'Veguitas', 8.8235541,-70.0015784),
 --subido a mysql hasta aca en servidor local
+-- Bolivar (21)
 ('', 6, 208, 'Caicara del Orinoco', 7.6073742,-66.2182725),
 ('', 6, 208, 'Canaima', 6.2353246,-62.8735652),
 ('', 6, 208, 'Ciudad Bolívar', 8.0747715,-63.6701576),
-('', 6, 208,, 'Ciudad Piar', 7.4471504,-63.393048),
+('', 6, 208, 'Ciudad Piar', 7.4471504,-63.393048),
 ('', 6, 208, 'El Callao', 7.3513944,-61.9040763),
 ('', 6, 208, 'El Dorado', 6.7180238,-61.6537685),
 ('', 6, 208, 'El Manteco', 7.3500383,-62.5540068),
@@ -118,6 +124,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 6, 208, 'San Francisco de Yuruaní', 5.0575158,-61.105012),
 ('', 6, 208, 'Tumeremo', 7.2995966,-61.5367422),
 ('', 6, 208, 'Upata', 8.0061051,-62.4715268),
+-- Carabobo (32)
 ('', 7, 208, 'Bejuma', 10.1763994,-68.293226),
 ('', 7, 208, 'Belén', 9.9443398,-67.7302214,),
 ('', 7, 208, 'Borburata', 10.4387372,-67.9687031),
@@ -150,6 +157,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 7, 208, 'Valencia Norte', 10.2066839,-68.0215063),
 ('', 7, 208, 'Valencia Sur', 10.1426061,-68.0148665),
 ('', 7, 208, 'Yagua', 10.2503527,-67.940484),
+-- Cojedes (14)
 ('', 8, 208, 'Apartadero', 9.680714,-68.960151),
 ('', 8, 208, 'Camuruco', 9.6521984,-68.8527678),
 ('', 8, 208, 'El Baúl', 8.9572369,-68.3097126),
@@ -164,9 +172,10 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 9, 208, 'Tucupita', 9.0470115,-62.0877466),
 ('', 10, 208, 'Caracas', 10.4686988,-67.0304546),
 ('', 10, 208, 'El Junquito', 10.4621718,-67.11811),
+-- Falcón (39)
 ('', 11, 208, 'Adícora', 11.945055,-69.8289814),
 ('', 11, 208, 'Boca de Aroa', 10.7041677,-68.3718261),
-('', 11, 208, 'boca de Mangle', 11.1469293,-68.4059108),
+('', 11, 208, 'Boca de Mangle', 11.1469293,-68.4059108),
 ('', 11, 208, 'Boca de Tocuyo', 11.0531212,-68.3770832),
 ('', 11, 208, 'Cabure', 11.1281518,-69.6383679),
 ('', 11, 208, 'Capadare', 11.1571708,-68.591841),
@@ -203,6 +212,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 11, 208, 'Tucacas', 10.7795263,-68.3984148),
 ('', 11, 208, 'Villa Marina', 11.8211235,-70.2825486),
 ('', 11, 208, 'Yaracal', 10.9723571,-68.579075),
+-- Guarico (26)
 ('', 12, 208, 'Altagracia de Orituco', 9.8550814,-66.4299415),
 ('', 12, 208, 'Cabruta', 7.6462933,-66.2824631),
 ('', 12, 208, 'Calabozo', 8.9138763,-67.5550044),
@@ -229,6 +239,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 12, 208, 'Tucupido', 9.2755356,-65.8079776),
 ('', 12, 208, 'Valle de La Pascua', 9.2134552,-66.1415932),
 ('', 12, 208, 'Zaraza', 9.3571995,-65.4007886),
+-- Lara (29)
 ('', 13, 208, 'Aguada Grande', 10.536652,-69.5192707),
 ('', 13, 208, 'Anzoátegui', 9.6050126,-69.9167241),
 ('', 13, 208, 'Arenales', 10.1488199,-69.9120998),
@@ -256,6 +267,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 13, 208, 'Sarare', 9.7778894,-69.2012901),
 ('', 13, 208, 'Siquisique', 10.5757147,-69.7426602),
 ('', 13, 208, 'Tintorero', 9.9889265,-69.5847847),
+-- Mérida (35)
 ('', 14, 208, 'Apartaderos Mérida', 8.7995792,-70.8758499),
 ('', 14, 208, 'Arapuey', 9.2276242,-71.0017803),
 ('', 14, 208, 'Bailadores', 8.2560759,-71.8446424),
@@ -291,6 +303,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 14, 208, 'Tovar', 8.3216965,-71.7911921),
 ('', 14, 208, 'Tucani', 8.9417697,-71.2984758,13),
 ('', 14, 208, 'Zea', 8.3692825,-71.77414,14),
+-- Miranda (38)
 ('', 15, 208, 'Araguita', 10.2222811,-66.4771452),
 ('', 15, 208, 'Carenero', 10.5335722,-66.1310008),
 ('', 15, 208, 'Carrizal', 10.36198,-67.0617305),
@@ -330,10 +343,35 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 15, 208, 'Tácata', 10.1811167,-66.975030),
 ('', 15, 208, 'Tapipa', 10.2291662,-66.3202387),
 -- Estado Miranda - region capital (se hace aprte porque corresponde a
--- la zona este de Caracas)
+-- la zona este de Caracas 
+-- Miranda - Region capital (25)
+('', 16, 208, 'Altamira', 10.5034788,-66.8689615),
+('', 16, 208, 'Alto Hatillo', 10.427124,-66.8384172),
+('', 16, 208, 'Boleita', 10.4922959,-66.8305681),
+('', 16, 208, 'Campo Alegre', 10.4940488,-66.8703515),
+('', 16, 208, 'Caurimare', 10.4735588,-66.8423733),
+('', 16, 208, 'Chacao'; 10.4940411,-66.8654109),
+('', 16, 208, 'Chuao', 10.4800901,-66.8812259),
+('', 16, 208, 'El Bosque', 10.4951622,-66.8727776),
+('', 16, 208, 'El Cafetal', 10.4669333,-66.837794),
+('', 16, 208, 'El Marqués', 10.4930982,-66.828433),
+('', 16, 208, 'El Peñón', 10.4432256,-66.888353),
+('', 16, 208, 'El Rosal', 10.4884157,-66.8736345),
+('', 16, 208, 'La Castellana', 0.5038752,-66.873457),
+('', 16, 208, 'La Lagunita', 10.4246548,-66.8311967),
+('', 16, 208, 'La Trinidad', 10.4364284,-66.8871046),
+('', 16, 208, 'La Urbina', 10.4909489,-66.821827),
 ('', 16, 208, 'Las Mercedes', 10.4807119,-66.8796747),
+('', 16, 208, 'Los Chorros', 10.5031399,-66.8358422),
+('', 16, 208, 'Los Palos Grandes', 10.5042152,-66.8517261),
+('', 16, 208, 'Los Ruices', 10.4850237,-66.838404,), 
+('', 16, 208, 'Macaracuay', 10.4642425,-66.8360031),
+('', 16, 208, 'Petare', 10.4763157,-66.8342563),
+('', 16, 208, 'Prados del Este', 10.4491129,-66.9027472),
+('', 16, 208, 'Sartenejas', 10.4102092,-66.9030326),
 ('', 16, 208, 'Turumo', 10.4719376,-66.7708191),
 -- acomodar base de datos --
+-- Monagas (25)
 ('', 17, 208, 'Aguasay', 9.4152119,-63.7401194),
 ('', 17, 208, 'Aragua de Maturín', 9.9706253,-63.5056546),
 ('', 17, 208, 'Barrancas del Orinoco', 8.7042728,-62.2350606),
@@ -359,6 +397,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 17, 208, 'Temblador', 9.0099148,-62.7137209),
 ('', 17, 208, 'Teresen', 10.1859463,-63.4945329),
 ('', 17, 208, 'Uracoa', 8.9953803,-62.3693421),
+-- Nueva Esparta (19)
 ('', 18, 208, 'Altagracia', 11.0971223,-63.9646474),
 ('', 18, 208, 'Boca de Pozo', 11.0100179,-64.3919582),
 ('', 18, 208, 'Boca del Río', 10.9610875,-64.2004168),
@@ -378,6 +417,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 18, 208, 'San Juan Bautista', 11.0160123,-63.972477),
 ('', 18, 208, 'San Pedro de Coche', 10.7947119,-64.0220789),
 ('', 18, 208, 'Santa Ana de Nueva Esparta', 11.0673788,-63.9563844),
+-- Portuguesa (17)
 ('', 19, 208, 'Acarigua', 9.5440143,-69.256271),
 ('', 19, 208, 'Agua Blanca', 9.6615376,-69.142811),
 ('', 19, 208, 'Aparición', 9.376014,-69.4031746),
@@ -395,6 +435,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 19, 208, 'Píritu de Portuguesa', 9.3685752,-69.2482433),
 ('', 19, 208, 'San Rafael de Onoto', 9.6697564,-68.9913085),
 ('', 19, 208, 'Turén', 9.3314385,-69.1531858),
+-- Sucre (25)
 ('', 20, 208, 'Araya', 10.5839017,-64.2921065),
 ('', 20, 208, 'Cariaco', 10.4956901,-63.581889),
 ('', 20, 208, 'Carúpano', 10.6452989,-63.3228028),
@@ -420,6 +461,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 20, 208, 'Tunapuy', 10.5738841,-63.1276133),
 ('', 20, 208, 'Yaguaraparo', 10.5688945,-62.863562),
 ('', 20, 208, 'Yoco', 10.5859463,-62.4615338),
+-- Táchira (33)
 ('', 21, 208, 'Abejales', 7.6288619,-71.552496),
 ('', 21, 208, 'Bramon', 7.6541097,-72.43387),
 ('', 21, 208, 'Capacho', 7.8148027,-72.369924),
@@ -453,6 +495,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 21, 208, 'Táriba', 7.8170136,-72.3005569),
 ('', 21, 208, 'Umuquena', 8.275508,-72.0772767),
 ('', 21, 208, 'Ureña', 7.9203211,-72.4767731),
+-- Trujillo (31)
 ('', 22, 208, 'Betijoque', 9.3760331,-70.7504506),
 ('', 22, 208, 'Boconó', 9.2542886,-70.3223956),
 ('', 22, 208, 'Burbusay', 9.4204646,-70.2733076),
@@ -484,6 +527,7 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 22, 208, 'Tostós', 9.1913403,-70.3382948),
 ('', 22, 208, 'Trujillo', 9.3708902,-70.474195),
 ('', 22, 208, 'Valera', 9.3212085,-70.6848799),
+-- La Guaira - Vargas (812)
 ('', 23, 208, 'Anare', 10.625026,-66.622635),
 ('', 23, 208, 'Caraballeda', 10.6095305,-66.9136365),
 ('', 23, 208, 'Carayaca', 10.5327813,-67.1332572),
@@ -496,12 +540,10 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 23, 208, 'Maiquetia', 10.6001441,-67.0569911),
 ('', 23, 208, 'Naiguatá', 10.6194716,-66.7580779),
 ('', 23, 208, 'San Antonio de Galipan', 10.5628711,-66.9226179)
-('', 23, 208, 'Litoral', 0),
-
+-- Yaracuy (17)
 ('', 24, 208, 'Aroa', 10.4321049,-68.9029455),
 ('', 24, 208, 'Boraure', 10.2465543,-68.7901213),
 ('', 24, 208, 'Cambural', 10.1053771,-69.1755331),
-('', 24, 208, 'Campo Elías de Yaracuy', 0),
 ('', 24, 208, 'Chivacoa', 10.1587002,-68.9298115),
 ('', 24, 208, 'Cocorote', 10.3125955,-68.8545753),
 ('', 24, 208, 'Farriar', 10.4678086,-68.5765316),
@@ -512,13 +554,13 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 24, 208, 'Salom', 10.1769501,-68.5054102),
 ('', 24, 208, 'San Felipe', 10.3403482,-68.8121188),
 ('', 24, 208, 'San Pablo', 10.2483702,-68.8644077),
-('', 25, 208, 'San Timoteo', 9.7022255,-71.1200585),
+('', 24, 208, 'San Timoteo', 9.7022255,-71.1200585),
 ('', 24, 208, 'Urachiche', 10.1574083,-69.0431238),
 ('', 24, 208, 'Yaritagua', 10.07162,-69.1761504),
 ('', 24, 208, 'Yumare', 10.5984252,-68.6925639),
 -- se partira el Zulia en costa oriental y costa occidental
 -- para hacer la localizacion mas sencilla
---Costa Oriental y Sur del Zulia
+--Costa Oriental y Sur del Zulia (19)
 ('', 25, 208, 'Bachaquero', 9.9623502,-71.2723846),
 ('', 25, 208, 'Bobures', 9.2373937,-71.2100109),
 ('', 25, 208, 'Cabimas', 10.3916365,-71.5688402),
@@ -538,37 +580,34 @@ INSERT INTO `ciudades` (`ciudad_id`, `estado_id`, `pais_id`, `ciudad`, `latitud`
 ('', 25, 208, 'Santa Cruz del Zulia', 8.9019025,-72.0228919),
 ('', 25, 208, 'Santa Rita', 10.5575331,-71.5697737),
 ('', 25, 208, 'Tía Juana', 10.2670159,-71.4302513),
--- zona occidental del Zulia
-('', 25, 208, 'Campo Mara', 10.8701215,-71.903543),
-('', 25, 208, 'Casigua El Cubo', 8.7451552,-72.5485982),
+-- zona occidental del Zulia (19)
+('', 26, 208, 'Campo Mara', 10.8701215,-71.903543),
+('', 26, 208, 'Casigua El Cubo', 8.7451552,-72.5485982),
 ('', 26, 208, 'Concepción', 10.4099305,-71.7630882),
-('', 25, 208, 'El Carmelo', 10.3938019,-71.754949),
-('', 25, 208, 'Isla de Toas', 10.9833046,-71.6802568),
-('', 25, 208, 'La Concepción del Zulia', 10.6485764,-71.907581),
-('', 25, 208, 'La Paz', 10.6783619,-72.031151),
-('', 25, 208, 'Las Piedras', 10.0030738,-72.4733377),
-('', 25, 208, 'Machiques', 10.0564935,-72.6220786),
-('', 25, 208, 'Maracaibo', 10.6334204,-71.9571518),
-('', 25, 208, 'Paraguaipoa', 11.3483646,-72.0032046),
-('', 25, 208, 'Potreritos', 10.3358178,-71.80360460),
-('', 25, 208, 'San Francisco', 10.4841224,-71.8395997),
-('', 25, 208, 'San José de Perijá', 10.0226454,-72.5434001),
-('', 25, 208, 'San Rafael del Moján', 10.9502059,-71.7647347),
-('', 25, 208, 'Santa Cruz de Mara', 10.7864628,-71.717163),
-('', 25, 208, 'Sinamaica', 11.0845426,-71.8723871),
-('', 25, 208, 'Tamare', 10.858539,-71.7671717),
-('', 25, 208, 'Villa del Rosario', 10.3176978,-72.3906791),
-
-('', 25, 208, 'Archipiélago Los Monjes', 0),
-('', 25, 208, 'Archipiélago Los Roques', 0),
-('', 25, 208, 'Isla La Tortuga y Cayos adyacentes', 0),
-('', 25, 208, 'Isla La Sola', 0),
-('', 25, 208, 'Islas Los Testigos', 0),
-('', 25, 208, 'Islas Los Frailes', 0),
-('', 25, 208, 'Isla La Orchila', 0),
-('', 25, 208, 'Archipiélago Las Aves', 0),
-('', 25, 208,, 'Isla de Aves', 0),
-('', 25, 208, 'Isla La Blanquilla', 0),
-('', 25, 208, 'Isla de Patos', 0),
-('', 25, 208, 'Islas Los Hermanos', 0);
+('', 26, 208, 'El Carmelo', 10.3938019,-71.754949),
+('', 26, 208, 'Isla de Toas', 10.9833046,-71.6802568),
+('', 26, 208, 'La Concepción del Zulia', 10.6485764,-71.907581),
+('', 26, 208, 'La Paz', 10.6783619,-72.031151),
+('', 26, 208, 'Las Piedras', 10.0030738,-72.4733377),
+('', 26, 208, 'Machiques', 10.0564935,-72.6220786),
+('', 26, 208, 'Maracaibo', 10.6334204,-71.9571518),
+('', 26, 208, 'Paraguaipoa', 11.3483646,-72.0032046),
+('', 26, 208, 'Potreritos', 10.3358178,-71.80360460),
+('', 26, 208, 'San Francisco', 10.4841224,-71.8395997),
+('', 26, 208, 'San José de Perijá', 10.0226454,-72.5434001),
+('', 26, 208, 'San Rafael del Moján', 10.9502059,-71.7647347),
+('', 26, 208, 'Santa Cruz de Mara', 10.7864628,-71.717163),
+('', 26, 208, 'Sinamaica', 11.0845426,-71.8723871),
+('', 26, 208, 'Tamare', 10.858539,-71.7671717),
+('', 26, 208, 'Villa del Rosario', 10.3176978,-72.3906791),
+--Dependencias Federales (9)
+('', 27, 208, 'Archipiélago Los Monjes', 12.4772947,-70.9103020),
+('', 27, 208, 'Archipiélago Los Roques', 11.8486389,-67.311304),
+('', 27, 208, 'Isla La Tortuga y Cayos adyacentes', 10.9374072,-65.5906068),
+('', 27, 208, 'Islas Los Testigos', 11.3390379,-63.1681457),
+('', 27, 208, 'Islas Los Frailes', 11.1149373,-63.8071798),
+('', 27, 208, 'Isla La Orchila', 11.7956356,-66.2919081),
+('', 27, 208, 'Archipiélago Las Aves', 11.8209869,-67.7347983),
+('', 27, 208, 'Isla La Blanquilla', 11.8537543,-64.6731736),
+('', 27, 208, 'Isla de Patos', 10.6048786,-61.9007763);
 
